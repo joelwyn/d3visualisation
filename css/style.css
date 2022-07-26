@@ -1,0 +1,101 @@
+/*
+filename: joelwyntan
+author: joelwyntan
+created: 07/03/2022
+last modified: 07/03/2022
+description: task 1
+*/
+.slidecontainer {
+    width: 100%;
+  }
+.slider {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+
+  
+.slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 20px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  
+.eventred {
+    fill: white;
+    text-shadow: 3px 2px gray;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.eventblue {
+    fill: blue;
+    text-shadow: 3px 2px gray;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.line_trend{
+    fill:none;
+    stroke: rgb(0, 56, 112);
+    stroke-width: 1;
+}
+
+.line_emission{
+    fill:none;
+    stroke: rgb(255, 0, 55);
+    stroke-width: 1.5;
+    stroke-dasharray: 2;
+}
+
+.line_seasonal{
+    fill:none;
+    stroke: rgb(109, 221, 99);
+    stroke-width: 1.5;
+    stroke-dasharray: 5;
+}
+
+text.actualemission {
+    fill: rgb(255, 0, 55);
+    font-size: 12px;
+}
+
+text.seasonal {
+    fill: rgb(109, 221, 99);
+    font-size: 12px;
+}
+
+text.trend {
+    fill: rgb(0, 56, 112);
+    font-size: 12px;
+}
+
+line.line.mark {
+    stroke:rgb(119, 119, 119);
+    stroke-width: 0.5;
+    /* stroke-dasharray: 2; */
+
+
+}
+
+path.area{
+    fill:aquamarine
+}

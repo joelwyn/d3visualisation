@@ -1,0 +1,60 @@
+.index {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/front_page.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.main {
+	max-width: 1500px;
+	margin: auto;
+}
+
+.logo img {
+	float: left;
+	width: 80px;
+	height: auto;
+	/* border: 5px solid black; */
+	
+}
+
+body {
+	padding-left: 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/front_page.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    font-family: Century Gothic;
+	  color: white;
+}
+
+ul li.active a {
+	background-color: white;
+	color: black;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+ul li a:hover {
+	background-color: white;
+	color: black;
+}
+

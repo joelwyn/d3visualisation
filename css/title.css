@@ -1,0 +1,23 @@
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.title h1 {
+	color: white;
+	font-size: 10em;letter-spacing: 0.291em;font-weight: 100;
+}
+
+span {
+    opacity: 0;
+    transition: all 1s ease;
+	font-size: 3rem;
+    transform: translateY(50px);
+}
+
+span.fade {
+    opacity: 1;
+}

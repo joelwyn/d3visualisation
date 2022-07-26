@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/visualisations.css" rel="stylesheet" type="text/css"/>
+    <link href="css/title.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="javascript/assignment.js"></script>
+    <script src ="https://d3js.org/d3.v6.min.js"></script>
+    <title>Data Visualisation</title>
+</head>
+<body>
+    <header class="viz">
+        <div class="main">
+          <div class="logo">
+            <a href="https://brandslogos.com/wp-content/uploads/images/large/swinburne-university-of-technology-logo-1.png"><img src="images/logo.png"></a>
+          </div>
+
+          <ul>
+            <li><a href="main.html">Home</a></li>
+            <li class="active"><a href="visualisations.html">Visualisations</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+
+        </div>
+    
+        <div>
+            <h1 class="title">Visualisations</h1>
+            <script src="javascript/title.js"></script>
+        </div>
+
+    </header>
+
+    <article>
+        <section>
+          <div class="box1">
+            <h2>Retails Electricity Cost Per Year In Australia</h2>
+            <button id="queensland" class="button" >Queensland</button><button id="vic" class="button" >Victoria</button><button id="sa" class="button" >South Australia</button><button id="nsw" class="button" >New South Wales</button><button id="tas" class="button" >Tasmania</button>
+                <p id="chart"></p>
+              <p>Even though in current society, people are more aware of the importance of renewable energy, cost for using</p>
+               <p>electricity still play an important role on motivating household to adapt more sustainable choice. As we can see in the bar chart,</p> 
+                <p>the electricity cost in majority states is constantly increasing, by adapting renewable energy such as solar power which government also</p>
+               <p> give out various incentive, a household can generally save up to 70% of their bills.</p>
+              </p> 
+          </div>
+        </section>
+    <br />
+      <section>
+        <div class="box2">
+          <h2>Green House Emissions Level</h2>
+          <button id="emission" class="button" >Emission</button><button id="trend" class="button" >Trend</button><button id="seasonal" class="button" >Seasonal</button>
+          <p id="linechart"></p>
+          
+            <p>Looking at the figure, we can see as the increase of solar installation, cost of electricity, the green house emission is also correlated and it is reducing</p>
+            <p>every year.</p>
+        </div> 
+      </section>
+      <br/>
+      <section>
+        <div class="box3">
+          <h2>Total Renewable Energy Produced Each State Per Year</h2>
+          
+        <div class ="slidercontainer"></div>
+          
+        <p><label for="rangeinput">Year </label><input id="rangeinput" type="range" min="2015" max="2019" value="2015" class = "slider" onchange="rangevalue.value=value"></input><output id="rangevalue">  2015</output></p>
+
+                  <p id="choropleth"></p>
+
+                  <p>Australia has pledged and made several commitments to becoming greener and setting an example for other developed countries to take a stand</p> 
+                  <P> against climate change. Therefore, in their effort to becoming part of the solution, they have been making progress in substituting non-renewable</p>
+                  <p> sources of energy with renewable sources as can be seen with the gradual growth of depedency on renewable energy with each passing year.</p>
+        </div>
+      </section>
+    <br />
+      </article>
+</body>
+</html>
